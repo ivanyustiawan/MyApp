@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My App</string>
+
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_button_login">Masuk</string>
+    <string name="text_message_empty_email_and_password">Email dan Password tidak boleh kosong</string>
+</resources>
