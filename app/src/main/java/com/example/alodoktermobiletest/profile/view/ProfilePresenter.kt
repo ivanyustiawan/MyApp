@@ -1,8 +1,8 @@
 package com.example.alodoktermobiletest.profile.view
 
 import androidx.fragment.app.Fragment
-import com.example.alodoktermobiletest.Constants
-import com.example.alodoktermobiletest.SharePreferenceHelpers
+import com.example.alodoktermobiletest.helper.Constants
+import com.example.alodoktermobiletest.helper.SharePreferenceHelpers
 
 class ProfilePresenter(private var profileInterface: ProfileInterface?) {
 

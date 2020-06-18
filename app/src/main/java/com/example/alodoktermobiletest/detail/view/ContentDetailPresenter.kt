@@ -1,7 +1,7 @@
 package com.example.alodoktermobiletest.detail.view
 
 import android.os.Bundle
-import com.example.alodoktermobiletest.Constants
+import com.example.alodoktermobiletest.helper.Constants
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

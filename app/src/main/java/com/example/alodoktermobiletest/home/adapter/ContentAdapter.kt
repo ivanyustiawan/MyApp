@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.alodoktermobiletest.Constants
+import com.example.alodoktermobiletest.helper.Constants
 import com.example.alodoktermobiletest.R
 import com.example.alodoktermobiletest.detail.view.ContentDetailActivity
 import com.example.alodoktermobiletest.home.model.ContentModelView

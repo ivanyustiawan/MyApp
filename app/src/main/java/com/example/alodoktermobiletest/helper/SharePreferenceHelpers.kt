@@ -1,4 +1,4 @@
-package com.example.alodoktermobiletest
+package com.example.alodoktermobiletest.helper
 
 import android.content.Context
 import androidx.preference.PreferenceManager

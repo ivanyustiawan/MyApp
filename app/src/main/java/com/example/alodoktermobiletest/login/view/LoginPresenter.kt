@@ -1,9 +1,9 @@
 package com.example.alodoktermobiletest.login.view
 
 import android.content.Context
-import com.example.alodoktermobiletest.Constants
+import com.example.alodoktermobiletest.helper.Constants
 import com.example.alodoktermobiletest.R
-import com.example.alodoktermobiletest.SharePreferenceHelpers
+import com.example.alodoktermobiletest.helper.SharePreferenceHelpers
 import com.example.alodoktermobiletest.login.model.UserModelView
 
 class LoginPresenter(private var loginInterface: LoginInterface?) {

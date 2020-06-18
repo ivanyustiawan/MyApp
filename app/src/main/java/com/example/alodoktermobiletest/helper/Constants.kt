@@ -1,4 +1,4 @@
-package com.example.alodoktermobiletest
+package com.example.alodoktermobiletest.helper
 
 object Constants {
     const val PREF_KEY_USER = "USER_MODEL"
