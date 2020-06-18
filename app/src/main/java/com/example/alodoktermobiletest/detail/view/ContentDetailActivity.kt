@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.example.alodoktermobiletest.databinding.ActivityContentDetailBinding
-import com.example.alodoktermobiletest.detail.adapter.CirclePagerIndicatorDecoration
 import com.example.alodoktermobiletest.detail.adapter.ContentAllImagesAdapter
+import com.example.alodoktermobiletest.helper.CirclePagerIndicatorDecoration
 
 class ContentDetailActivity : AppCompatActivity(),
     ContentDetailInterface {
@@ -47,7 +47,11 @@ class ContentDetailActivity : AppCompatActivity(),
         binding.recyclerViewAllImages.apply {
             layoutManager = viewManager
             adapter = contentAllImagesAdapter
-            addItemDecoration(CirclePagerIndicatorDecoration(context))
+            addItemDecoration(
+                CirclePagerIndicatorDecoration(
+                    context
+                )
+            )
         }
     }
 

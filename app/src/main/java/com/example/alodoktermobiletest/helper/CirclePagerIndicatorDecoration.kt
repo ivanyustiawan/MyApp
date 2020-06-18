@@ -1,4 +1,4 @@
-package com.example.alodoktermobiletest.detail.adapter
+package com.example.alodoktermobiletest.helper
 
 import android.content.Context
 import android.content.res.Resources
